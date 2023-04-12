@@ -8,9 +8,11 @@ NamX est un site vitrine développé dans le cadre d'un projet Green IT. Ce site
 
 ## Installation
 
+```
 git clone https://github.com/abyzou7/namx.git
 cd namx
 npm install
+```
 
 ### Utilisation
 ```
