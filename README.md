@@ -1,11 +1,20 @@
-# namx
+# NamX
 
-## Project setup
+Bienvenue sur le projet NamX.
+
+## Description
+
+NamX est un site vitrine développé dans le cadre d'un projet Green IT. Ce site présente NamX le constructeur automobile hydrogène.
+
+## Installation
+
 ```
+git clone https://github.com/abyzou7/namx.git
+cd namx
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Utilisation
 ```
 npm run serve
 ```
@@ -19,7 +28,8 @@ npm run build
 ```
 npm run lint
 ```
+### Collaborators
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# namx
+Kassim MOHAMED : @abyzou7
+Chakil MOUHAMAD : @chakil28
+Rudro KHAN : @rudrokhanpro
