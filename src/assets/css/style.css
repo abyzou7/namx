@@ -336,3 +336,31 @@ p#black-p-company{
 .scroll-to-top.show {
   display: block;
 }
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.car-description {
+  padding: 20px;
+}
+
+.car-title {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.car-text {
+  font-size: 18px;
+}
+
+.car-price {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
