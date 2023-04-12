@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import carIndex from '../components/Car/CarIndex.vue'
 import indexVue from '../components/Index.vue'
 
+
 const routes = [
   {
     path: '/',
@@ -13,7 +14,8 @@ const routes = [
     path: '/car',
     name: 'carIndex',
     component: carIndex
-  }
+  },
+
 ]
 
 const router = createRouter({

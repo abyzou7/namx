@@ -12,7 +12,9 @@
             <div class="col-md-6">
               <img src="../assets/images/capsule.webp" alt="Capsule de carburant" class="img-fluid">
               <div class="text-center mt-3">
-                <a href="#" class="btn-custom">Acheter</a>
+                <RouterLink to="/car">
+                  <button class="btn-custom">Acheter</button>
+                </RouterLink>
               </div>
             </div>
           </div>

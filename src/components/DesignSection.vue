@@ -11,7 +11,9 @@
                 <h2 class="lead mb-4" id="white-title-company">Un HUV futuriste aux performances solides, avec style.</h2>
                 <p class="mb-4" id="white-p-company">Fruit d'une collaboration entre NamX et Pininfarina, la conception de la voiture reflète une attention ferme aux détails et à la pureté du design.
                 </p>
-                <button class="btn-custom2">Acheter</button>
+                <RouterLink to="/car">
+                  <button class="btn-custom">Acheter</button>
+                </RouterLink>
               </div>
             </div>              
           </div>

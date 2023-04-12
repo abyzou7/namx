@@ -6,7 +6,9 @@
               <div class="text-left">
                 <img src="../assets/images/logo-black.png" alt="Logo NamX" width="200">
                 <p class="my-5" style="font-family:'Myanmar MN';">Obtenez votre HUV Premium</p>
-                <a href="#" class="btn-custom">Acheter</a>
+                <RouterLink to="/car">
+                  <button class="btn-custom">Acheter</button>
+                </RouterLink>
               </div>
             </div>
             <div class="col-md-4" id="about-us">

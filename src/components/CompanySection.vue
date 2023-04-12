@@ -8,7 +8,9 @@
                 <h2 class="lead mb-4" id="black-title-company">New Automotive Mobility Exploration</h2>
                 <p class="mb-4" id="black-p-company">Promouvoir un avenir durable grâce à notre technologie. NamX HUV révolutionne l'industrie de la mobilité en offrant un véhicule à hydrogène propre et puissant sans compromettre les performances.
                 </p>
-                <button class="btn-custom">Acheter</button>
+                <RouterLink to="/car">
+                  <button class="btn-custom">Acheter</button>
+                </RouterLink>
               </div>
             </div>              
             <div class="col-md-6 h-100 d-flex align-items-center justify-content-center" style="overflow:hidden;">
