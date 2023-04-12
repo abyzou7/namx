@@ -69,7 +69,12 @@ html {
   }
   .navbar-nav .nav-item .nav-link {
     color: white;
-    }  
+    font-family: "Myanmar MN";
+    }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #4CAF50;
+    }
   .banner {
     height: 100vh;
     background-size: cover;
@@ -302,4 +307,15 @@ p#black-p-company{
   #about-us {
     margin: 2rem 0 2rem 0;
   }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.scroll-to-top.show {
+  display: block;
 }

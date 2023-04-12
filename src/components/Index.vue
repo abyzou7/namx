@@ -14,6 +14,7 @@
   <CapsulesSection></CapsulesSection>
   <VideoSection></VideoSection>
   <Footer></Footer>
+
   
 </template>
 

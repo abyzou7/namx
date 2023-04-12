@@ -1,5 +1,5 @@
 <template>
-<section class="section-capsules">
+<section class="section-capsules" id="capsules">
     <div class="container">
         <div class="row align-items-center">
         <div class="col-md-12 text-center">
@@ -17,7 +17,6 @@
             </div>
           </div>
     </div>
-    
     </section>
 
       
