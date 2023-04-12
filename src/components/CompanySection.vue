@@ -12,7 +12,7 @@
               </div>
             </div>              
             <div class="col-md-6 h-100 d-flex align-items-center justify-content-center" style="overflow:hidden;">
-              <img src="../assets/images/about.webp" alt="about" id="img-company" class="img-fluid lazyload">          
+              <img src="../assets/images/about.webp" alt="Back of the car" id="img-company" class="img-fluid lazyload">          
             </div>
           </div>
         </div>

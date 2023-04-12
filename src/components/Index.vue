@@ -10,6 +10,9 @@
   </div>
   <companySection></companySection>
   <designSection></designSection>
+  <CarSection></CarSection>
+  <CapsulesSection></CapsulesSection>
+  <VideoSection></VideoSection>
   
 </template>
 
@@ -17,11 +20,14 @@
 import Navbar from './Navbar.vue'
 import CompanySection from './CompanySection.vue'
 import DesignSection from './DesignSection.vue'
+import CarSection from './CarSection.vue'
+import CapsulesSection from './CapsulesSection.vue'
+import VideoSection from './VideoSection.vue'
 
 export default {
   name: 'indexVue',
   components: {
-    Navbar, CompanySection, DesignSection
+    Navbar, CompanySection, DesignSection, CarSection, CapsulesSection, VideoSection
   }
 }
 </script>
