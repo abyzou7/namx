@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <link href="https://fonts.googleapis.com/css2?family=Myanmar+MN&display=swap" rel="stylesheet">
+  <indexVue></indexVue>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import indexVue from './components/Index.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    indexVue,
   }
+  
+
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Import du fichier CSS depuis assets */
+@import '@/assets/css/style.css';
 </style>
