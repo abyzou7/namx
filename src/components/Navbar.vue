@@ -24,14 +24,21 @@
           </ul>
         </div>
         <div class="ml-auto">
-          <button class="btn-custom-navbar">Acheter</button>
+          <router-link to="/footer">
+            <button class="btn-custom-navbar">Acheter</button>
+          </router-link>
         </div>
       </div>
     </nav>
   </template>
   
 <script>
+import FooterComponent from "@/components/Footer.vue";
+
 export default {
-  name: 'NavigationBar'
+  name: 'NavigationBar',
+  components: {
+    FooterComponent
+  },
 }
 </script>

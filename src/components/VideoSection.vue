@@ -4,7 +4,7 @@
         <div class="row align-items-center">
             <div class="col-md-12 text-center">
                 <h2 class="caps-title">Découvrez notre HUV Premium</h2>
-                <video width="100%" height="100%" class="video-namx" controls preload="none">
+                <video poster="../assets/images/poster.png" width="100%" height="100%" class="video-namx" controls preload="none">
                     <source src="../assets/video/namx.webm" type="video/webm">
                 </video>  
             </div>
