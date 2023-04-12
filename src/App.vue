@@ -1,20 +1,16 @@
 <template>
-  <indexVue></indexVue>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import indexVue from './components/Index.vue'
-
 
 export default {
   name: 'App',
-  components: {
-    indexVue,
-  }
 }
-
-
 </script>
+
 <style>
 /* Import du fichier CSS depuis assets */
 @import '@/assets/css/style.css';

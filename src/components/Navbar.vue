@@ -24,7 +24,11 @@
           </ul>
         </div>
         <div class="ml-auto">
+          <RouterLink to="/car">
             <button class="btn-custom-navbar">Acheter</button>
+          </RouterLink>
+          
+          
         </div>
       </div>
     </nav>
