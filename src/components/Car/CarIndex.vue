@@ -1,12 +1,15 @@
 <template>
-    <div>
-        Car Index
-    </div>
+    <NavbarBlack></NavbarBlack>
+    
   </template>
   
   
   <script>
+import NavbarBlack from '../Car/NavbarBlack.vue'
     export default {
-      name: 'CarIndex'
+      name: 'CarIndex',
+      components: {
+        NavbarBlack
+    }
     }
   </script>

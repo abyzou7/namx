@@ -53,6 +53,23 @@ html {
   cursor: pointer;
 }
 
+.btn-custom-navbar2 {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+
+}
+
+.btn-custom-navbar2:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
 .navbar {
     padding: 0 2rem;
     z-index: 1;
