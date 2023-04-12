@@ -5,7 +5,7 @@
             <div class="col-md-6 h-100 d-flex align-items-center justify-content-center" style="overflow:hidden;">
               <img src="../assets/images/design.webp" alt="Front design of the car" id="img-design" class="img-fluid lazyload">          
             </div>
-            <div class="col-md-6 d-flex align-items-center ml-lg-5">
+            <div class="col-md-6 d-flex align-items-center ml-lg-5" id="design-section">
               <div class="mx-auto text-left">
                 <p class="mb-4" id="green-sub">notre design</p>
                 <h2 class="lead mb-4" id="white-title-company">Un HUV futuriste aux performances solides, avec style.</h2>

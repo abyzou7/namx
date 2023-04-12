@@ -267,3 +267,39 @@ p#black-p-company{
 .list-unstyled li {
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .section-company, .section-design, .section-vehicules, .section-capsules {
+    height : auto;
+  }
+  #img-company, #img-design {
+    height: auto;
+  }
+  #main-text {
+    text-align: center;
+  }
+
+  .section-company h2, .section-design h2, .section-vehicules h2, .section-capsules h2, .caps-title {
+    font-size: 2rem;
+  }
+
+  p#black-p-company, p#black-p-design, p#black-p-vehicules, p#black-p-capsules, .section-design p {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom-navbar {
+    display: none;
+  }
+
+  .section-company {
+    padding: 0;
+  }
+
+  #company-section, #design-section, #vehicules-section, #capsules-section {
+    margin: 2rem 0 2rem 0;
+  }
+
+  #about-us {
+    margin: 2rem 0 2rem 0;
+  }
+}

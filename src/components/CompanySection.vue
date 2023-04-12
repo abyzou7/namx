@@ -2,7 +2,7 @@
     <section class="section-company">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-md-6 d-flex align-items-center ml-lg-5">
+            <div class="col-md-6 d-flex align-items-center ml-lg-5" id="company-section">
               <div class="mx-auto text-left">
                 <p class="mb-4" id="green-sub">Notre Vision</p>
                 <h2 class="lead mb-4" id="black-title-company">New Automotive Mobility Exploration</h2>

@@ -9,7 +9,7 @@
                 <a href="#" class="btn-custom">Acheter</a>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="about-us">
               <h5 class="text-uppercase mb-3">À propos de nous</h5>
               <ul class="list-unstyled">
                 <li><a href="#">Notre vision</a></li>
