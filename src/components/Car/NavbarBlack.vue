@@ -12,13 +12,13 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#section-company">Notre Vision</a>
+                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/capx">CapX Store</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#section-design">Notre Design</a>
+                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#design">Notre Design</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#section-vehicles">Nos Modèles</a>
+                <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#vehicles">Nos Modèles</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-dark" href="https://idyllic-hotteok-1c1f13.netlify.app/#capsules">Hydrogène</a>

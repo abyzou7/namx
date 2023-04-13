@@ -83,15 +83,30 @@ html {
   .navbar-nav .nav-item {
     margin: 0 1rem;
     color: white;
+    text-decoration: none;
   }
   .navbar-nav .nav-item .nav-link {
     color: white;
     font-family: "Myanmar MN";
+    text-decoration: none;
     }
+
+    .navbar-nav .nav-item .nav-link a {
+      color: white;
+      font-family: "Myanmar MN";
+      text-decoration: none;
+      }
 
   .navbar-nav .nav-item .nav-link:hover {
     color: #4CAF50;
+    
     }
+
+    .navbar-nav li a {
+      text-decoration: none;
+    }
+    
+
   .banner {
     height: 100vh;
     background-size: cover;
@@ -118,7 +133,7 @@ html {
     text-align: center;
   }
 
-  .section-company {
+  .section-company, .section-capx {
     height: auto;
     padding-left: 5%;
   }
@@ -148,7 +163,7 @@ html {
     padding-right: 0;
  }
 
- #img-company {
+ #img-company, #img-capx {
    width: 100%;
    height: 100vh;
    margin-right: -5%;
@@ -291,10 +306,16 @@ p#black-p-company{
 }
 
 @media screen and (max-width: 480px) {
-  .section-company, .section-design, .section-vehicules, .section-capsules {
+  .section-company, .section-design, .section-vehicules, .section-capsules, .section-capsule {
     height : auto;
   }
-  #img-company, #img-design {
+
+  .section-capx{
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  #img-company, #img-design, #img-capx {
     height: auto;
   }
   #main-text, #payment-success {
@@ -302,11 +323,11 @@ p#black-p-company{
     
   }
 
-  .section-company h2, .section-design h2, .section-vehicules h2, .section-capsules h2, .caps-title {
+  .section-company h2, .section-design h2, .section-vehicules h2, .section-capsules h2, .caps-title, .section-capx h2, .section-capsule {
     font-size: 2rem;
   }
 
-  p#black-p-company, p#black-p-design, p#black-p-vehicules, p#black-p-capsules, .section-design p {
+  p#black-p-company, p#black-p-design, p#black-p-vehicules, p#black-p-capsules, .section-design p, .section-capsule p {
     font-size: 1.5rem;
   }
 
@@ -314,11 +335,11 @@ p#black-p-company{
     display: none;
   }
 
-  .section-company {
+  .section-company, .section-capx {
     padding: 0;
   }
 
-  #company-section, #design-section, #vehicules-section, #capsules-section {
+  #company-section, #design-section, #vehicules-section, #capsules-section, #capx-section {
     margin: 2rem 0 2rem 0;
   }
 
@@ -326,6 +347,7 @@ p#black-p-company{
     margin: 2rem 0 2rem 0;
   }
 }
+
 
 
 
@@ -478,4 +500,60 @@ p#black-p-company{
   border-radius: 20px;
   height: 100vh;
 
+}
+
+
+.banner-capx {
+  position: relative;
+  z-index: 0;
+  background-image: url("../images/holding-capsule.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4rem;
+}
+
+.banner-capx::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}
+
+h2#black-title-capx {
+  font-size: 3rem;
+  font-family: 'Myanmar MN';
+  color: black;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.section-capsule{
+  height: 100vh;
+  margin-bottom: 5rem;
+}
+
+.section-capsule {
+  height: 100vh;
+  padding-right: 5%;
+}
+
+.section-capsule h2 {
+  font-size: 3rem;
+  color: black;
+  font-family: 'Myanmar MN';
+  font-weight: 500;
+}
+
+.section-capsule p {
+  font-size: 2rem;
+  color: black;
+  font-weight: 300;
 }

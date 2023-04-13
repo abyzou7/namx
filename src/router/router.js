@@ -4,6 +4,7 @@ import indexVue from '../components/Index.vue'
 import paymentIndexGT from '../components/Payment/PaymentIndexGT.vue'
 import paymentIndexGTH from '../components/Payment/PaymentIndexGTH.vue'
 import paymentSuccess from '../components/Payment/PaymentSuccess.vue'
+import CapxIndex from '../components/Capx/CapxIndex.vue'
 
 
 const routes = [
@@ -32,6 +33,11 @@ const routes = [
     path:'/success',
     name:'paymentSuccess',
     component: paymentSuccess
+  },
+  {
+    path:'/capx',
+    name:'CapxIndex',
+    component: CapxIndex
   }
 
 ]
