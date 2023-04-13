@@ -71,13 +71,13 @@
                     <div class="col-6">
                       <div class="vehicle-feature">
                         <h4 class="feature-title">Autonomie</h4>
-                        <p class="feature-text">800 KM avec un réservoir de 500 KM composé de 6 capsules (50KM chacune).</p>
+                        <p class="feature-text">600 KM avec un réservoir de 300 KM composé de 6 capsules (50KM chacune).</p>
                       </div>
                     </div>
                     <div class="col-6">
                       <div class="vehicle-feature">
                         <h4 class="feature-title">Accélération</h4>
-                        <p class="feature-text">4,3 secondes pour atteindre 0-60 mph*.</p>
+                        <p class="feature-text">6,5 secondes pour atteindre 0-60 mph*.</p>
                       </div>
                     </div>
                   </div>
@@ -91,7 +91,7 @@
                     <div class="col-6">
                       <div class="vehicle-feature">
                         <h4 class="feature-title">VITESSE MAXIMALE</h4>
-                        <p class="feature-text">155 mph </p>
+                        <p class="feature-text">125 mph </p>
                       </div>
                     </div>
                   </div>
@@ -105,7 +105,7 @@
                     <div class="col-6">
                       <div class="vehicle-feature">
                         <h4 class="feature-title">Puissance</h4>
-                        <p class="feature-text">550 chevaux</p>
+                        <p class="feature-text">350 chevaux</p>
                       </div>
                     </div>
                   </div>

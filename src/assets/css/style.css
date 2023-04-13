@@ -386,3 +386,57 @@ p#black-p-company{
   font-family: 'Myanmar MN';
   color: white;
 }
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+} */
+
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.btn-custom-model {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  width: 100%;
+  display: block;
+  opacity: 40%;
+  font-size: 1.25rem;
+}
+
+.btn-custom-model:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.left-text, .right-text {
+  display: inline-block;
+  width: 50%;
+}
+
+.right-text {
+  text-align: right;
+}
+
+#model-choose {
+  font-size: 3rem;
+  font-family: 'Myanmar MN';
+  color: black;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+#carousselExampleIndicators {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
