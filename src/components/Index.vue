@@ -1,7 +1,7 @@
 <template>
   <navbar></navbar>
   <div class="banner">
-        <div class="banner d-flex align-items-center" style="background-image: url('@/assets/banner-bg.jpg');">
+        <div class="banner2 d-flex align-items-center">
       <div class="container flex-column justify-content-start" style="margin-top: -20vh;">
         <p class="text-white mb-0" id="sub-text">NamX</p>
         <h1 class="text-white mb-3" id="main-text">une voiture écologique et innovante</h1>

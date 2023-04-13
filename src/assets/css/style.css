@@ -336,3 +336,9 @@ p#black-p-company{
 .scroll-to-top.show {
   display: block;
 }
+
+#card-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+

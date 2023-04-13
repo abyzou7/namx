@@ -1,6 +1,7 @@
 <template>
     <NavbarBlack></NavbarBlack>
     
+    
   </template>
   
   

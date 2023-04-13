@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import carIndex from '../components/Car/CarIndex.vue'
 import indexVue from '../components/Index.vue'
+import paymentIndex from '../components/Payment/PaymentIndex.vue'
 
 
 const routes = [
@@ -15,6 +16,11 @@ const routes = [
     name: 'carIndex',
     component: carIndex
   },
+  {
+    path:'/payment',
+    name:'paymentIndex',
+    component: paymentIndex
+  }
 
 ]
 
