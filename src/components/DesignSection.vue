@@ -12,7 +12,7 @@
                 <p class="mb-4" id="white-p-company">Fruit d'une collaboration entre NamX et Pininfarina, la conception de la voiture reflète une attention ferme aux détails et à la pureté du design.
                 </p>
                 <RouterLink to="/car">
-                  <button class="btn-custom">Acheter</button>
+                  <button class="btn-custom2">Acheter</button>
                 </RouterLink>
               </div>
             </div>              

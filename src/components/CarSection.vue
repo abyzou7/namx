@@ -6,6 +6,7 @@
               <div class="vehicle-info">
                 <h3 id="green-sub">Nos modèles</h3>
                 <h2 class="vehicle-title">VERSION GTH</h2>
+                <h3 class="subtitle"> 95 990 €</h3>
                 <div class="vehicle-table">
                   <div class="row">
                     <div class="col-6">
@@ -50,6 +51,7 @@
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
             <div class="col-md-6">
@@ -66,6 +68,7 @@
               <div class="vehicle-info">
                 <h3 id="green-sub">Nos modèles</h3>
                 <h2 class="vehicle-title">VERSION GT</h2>
+                <h3 class="subtitle"> 60 990 €</h3>
                 <div class="vehicle-table">
                   <div class="row">
                     <div class="col-6">
