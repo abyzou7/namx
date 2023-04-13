@@ -1,9 +1,11 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/images/logo-white.png" alt="Logo NamX">
+        <RouterLink to="/">
+        <a class="navbar-brand">
+          <img src="@/assets/images/logo-white.png" alt="Logo NamX">
         </a>
+      </RouterLink>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

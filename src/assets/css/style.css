@@ -309,7 +309,7 @@ p#black-p-company{
     font-size: 1.5rem;
   }
 
-  .btn-custom-navbar {
+  .btn-custom-navbar, .btn-custom-navbar2{
     display: none;
   }
 
@@ -342,3 +342,47 @@ p#black-p-company{
   padding: 10px;
 }
 
+
+.payment-title {
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Myanmar MN';
+  font-weight: 500;
+}
+
+.payment-price {
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Myanmar MN';
+  font-weight: 500;
+}
+
+.banner-success2{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  background-image: url("../images/Success.webp");
+  margin-top: -4rem;
+}
+
+.banner-success2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+#payment-success {
+  font-size: 3rem;
+  font-family: 'Myanmar MN';
+  color: white;
+}

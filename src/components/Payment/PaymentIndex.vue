@@ -5,10 +5,11 @@
         <div class="col-md-6 d-flex align-items-center">
             <img src="@/assets/images/car-front.webp" alt="Car image" class="img-fluid lazyload mx-auto">
           </div>
+          
         <div class="col-md-6">
           <div>
-            <h2>{{ product.name }}</h2>
-            <p>{{ product.price }}</p>
+            <h2 class="payment-title">{{ product.name }}</h2>
+            <p class="payment-price">{{ product.price }}</p>
           </div>
           <form id="payment-form">
             <div class="form-group mb-3">
@@ -58,7 +59,9 @@
   
   <script>
   import NavbarBlack from "@/components/Car/NavbarBlack.vue";
-  import {loadStripe} from '@stripe/stripe-js/pure'
+  import {loadStripe} from '@stripe/stripe-js/pure';
+  import router from "@/router/router.js";
+
   
   export default {
     name: "PaymentForm",
@@ -110,16 +113,25 @@
             billing_details: {
               name: document.getElementById("name").value,
               email: document.getElementById("email").value,
+                address: {
+                    line1: document.getElementById("address_line1").value,
+                    line2: document.getElementById("address_line2").value,
+                    city: document.getElementById("city").value,
+                    state: document.getElementById("state").value,
+                    postal_code: document.getElementById("zip").value,
+                    country: document.getElementById("country").value,
+                },
             },
           });
           if (error) {
             errorElement.textContent = error.message;
           } else {
             console.log(paymentMethod);
-            // Submit the form
-            form.submit();
+            console.log("Payment successful");
+            router.push("/success")
           }
         });
+       
       },
     },
     components: {
@@ -127,4 +139,3 @@
     }
   };
   </script>
-  
