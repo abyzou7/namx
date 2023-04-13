@@ -2,8 +2,8 @@
     <NavbarBlack></NavbarBlack>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-md-6 d-flex align-items-center">
-            <img src="@/assets/images/car-front.webp" alt="Car image" class="img-fluid lazyload mx-auto">
+        <div class="col-md-6">
+            <img src="@/assets/images/payment.webp" alt="Car image" id="payment-img" class="img-fluid lazyload mx-auto">
           </div>
           
         <div class="col-md-6">
