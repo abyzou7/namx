@@ -2,18 +2,18 @@
     <NavbarBlack></NavbarBlack>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-md-6">
-            <img src="@/assets/images/payment.webp" alt="Car image" id="payment-img" class="img-fluid lazyload mx-auto">
-          </div>
+        <div class="col-md-4" id="bg-img-container-gt">
+          <!-- <img src="@/assets/images/payment.webp" alt="Car image" id="payment-img" class="img-fluid lazyload mx-auto"> -->
+        </div>
           
-        <div class="col-md-6">
+        <div class="col-md-8" id="payment-form-custom">
           <div>
             <h2 class="payment-title">{{ product.name }}</h2>
             <p class="payment-price">{{ product.price }}</p>
           </div>
           <form id="payment-form">
             <div class="form-group mb-3">
-              <label for="name">Name</label>
+              <label for="name">Nom</label>
               <input type="text" class="form-control" id="name" required>
             </div>
             <div class="form-group mb-3">
@@ -21,35 +21,35 @@
               <input type="email" class="form-control" id="email" required>
             </div>
             <div class="form-group mb-3">
-                <label for="address_line1">Address Line 1</label>
+                <label for="address_line1">Adresse</label>
               <input type="text" class="form-control" id="address_line1" required>
             </div>
             <div class="form-group mb-3">
-                <label for="address_line2">Address Line 2</label>
+                <label for="address_line2">Complément adresse</label>
               <input type="text" class="form-control" id="address_line2">
             </div>
             <div class="form-group mb-3">
-                <label for="city">City</label>
+                <label for="city">Ville</label>
               <input type="text" class="form-control" id="city" required>
             </div>
             <div class="form-group mb-3">
-                <label for="state">State</label>
+                <label for="state">État / Province</label>
               <input type="text" class="form-control" id="state" required>
             </div>
             <div class="form-group mb-3">
-                <label for="zip">ZIP/Postal Code</label>
+                <label for="zip">Code Postale</label>
               <input type="text" class="form-control" id="zip" required>
             </div>
             <div class="form-group mb-3">
-                <label for="country">Country</label>
+                <label for="country">Pays</label>
               <input type="text" class="form-control" id="country" required>
             </div>
             <div class="form-group mb-3">
-                <label for="card-element">Credit or debit card</label>
+                <label for="card-element">Carte de crédit ou de débit</label>
               <div id="card-element" class="form-control"></div>
               <div id="card-errors" role="alert"></div>
             </div>
-            <button type="submit" class="my-4 btn-custom" id="submit-button">Pay</button>
+            <button type="submit" class="my-4 btn-custom" id="submit-button">Payer</button>
           </form>
         </div>
       </div>

@@ -71,7 +71,6 @@
           <div class="row align-items-center">
             <div class="col-md-6 order-md-2">
               <div class="vehicle-info">
-                <h3 id="green-sub">Nos modèles</h3>
                 <h2 class="vehicle-title">VERSION GT</h2>
                 <h3 class="subtitle"> 60 990 €</h3>
                 <div class="vehicle-table">
