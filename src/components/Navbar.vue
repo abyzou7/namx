@@ -12,13 +12,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#section-company">Notre Vision</a>
+              <a class="nav-link" href="#company">Notre Vision</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-design">Notre Design</a>
+              <a class="nav-link" href="#design">Notre Design</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-vehicles">Nos Modèles</a>
+              <a class="nav-link" href="#vehicles">Nos Modèles</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#capsules">Hydrogène</a>

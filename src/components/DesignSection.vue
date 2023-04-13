@@ -1,5 +1,5 @@
 <template>
-    <section class="section-design" id="section-design">
+    <section class="section-design" id="design">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-6 h-100 d-flex align-items-center justify-content-center" style="overflow:hidden;">

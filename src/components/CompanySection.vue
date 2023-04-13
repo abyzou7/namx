@@ -1,5 +1,5 @@
 <template>
-    <section class="section-company" id="section-company">
+    <section class="section-company" id="company">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-md-6 d-flex align-items-center ml-lg-5" id="company-section">

@@ -1,5 +1,5 @@
 <template>
-    <section class="section-vehicules" id="section-vehicles">
+    <section class="section-vehicules" id="vehicles">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6">
@@ -56,6 +56,11 @@
             </div>
             <div class="col-md-6">
               <img src="../assets/images/car-front.webp" alt="NamX HUV from Front" class="vehicle-image img-fluid" id="presentation-car">
+              <div class="text-center mt-5">
+                <RouterLink to="/car">
+                  <button class="btn-custom-discover">Découvrir</button>
+                </RouterLink>
+              </div>
             </div>
           </div>
         </div>
@@ -117,6 +122,11 @@
             </div>
             <div class="col-md-6 order-md-1">
               <img src="../assets/images/car-behind.webp" alt="NamX HUV from Behind" class="vehicle-image img-fluid" id="presentation-car">
+              <div class="text-center mt-5">
+                <RouterLink to="/car">
+                  <button class="btn-custom-discover">Découvrir</button>
+                </RouterLink>
+              </div>
             </div>
           </div>
         </div>
