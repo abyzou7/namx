@@ -1,35 +1,75 @@
 <template>
+    <NavbarBlack></NavbarBlack>
     <div class="container mt-5">
-      <h1>Payment Form</h1>
       <div class="row">
+        <div class="col-md-6 d-flex align-items-center">
+            <img src="@/assets/images/car-front.webp" alt="Car image" class="img-fluid lazyload mx-auto">
+          </div>
         <div class="col-md-6">
+          <div>
+            <h2>{{ product.name }}</h2>
+            <p>{{ product.price }}</p>
+          </div>
           <form id="payment-form">
-            <div class="form-group">
+            <div class="form-group mb-3">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" required>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
+            <div class="form-group mb-3">
+                <label for="email">Email</label>
               <input type="email" class="form-control" id="email" required>
             </div>
-            <div class="form-group">
-              <label for="card-element">Credit or debit card</label>
+            <div class="form-group mb-3">
+                <label for="address_line1">Address Line 1</label>
+              <input type="text" class="form-control" id="address_line1" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="address_line2">Address Line 2</label>
+              <input type="text" class="form-control" id="address_line2">
+            </div>
+            <div class="form-group mb-3">
+                <label for="city">City</label>
+              <input type="text" class="form-control" id="city" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="state">State</label>
+              <input type="text" class="form-control" id="state" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="zip">ZIP/Postal Code</label>
+              <input type="text" class="form-control" id="zip" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="country">Country</label>
+              <input type="text" class="form-control" id="country" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="card-element">Credit or debit card</label>
               <div id="card-element" class="form-control"></div>
               <div id="card-errors" role="alert"></div>
             </div>
-            <button type="submit" class="btn btn-primary" id="submit-button">Pay</button>
+            <button type="submit" class="my-4 btn-custom" id="submit-button">Pay</button>
           </form>
         </div>
       </div>
     </div>
   </template>
+
   
   <script>
+  import NavbarBlack from "@/components/Car/NavbarBlack.vue";
   import {loadStripe} from '@stripe/stripe-js/pure'
-  console.log(loadStripe);
   
   export default {
     name: "PaymentForm",
+    data() {
+      return {
+        product: {
+          name: "NamX HUV Premium - Version GTH",
+          price: "95 990 €",
+        },
+      };
+    },
     mounted() {
       this.setupStripe();
     },
@@ -82,6 +122,9 @@
         });
       },
     },
+    components: {
+        NavbarBlack
+    }
   };
   </script>
   
