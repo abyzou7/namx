@@ -12,8 +12,8 @@
             <div class="col-md-6">
               <img src="../assets/images/capsule.webp" alt="Capsule de carburant" class="img-fluid">
               <div class="text-center mt-3">
-                <RouterLink to="/car">
-                  <button class="btn-custom">Acheter</button>
+                <RouterLink to="/capx">
+                  <button class="btn-custom">Découvrir</button>
                 </RouterLink>
               </div>
             </div>
